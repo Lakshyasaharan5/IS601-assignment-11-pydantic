@@ -19,15 +19,17 @@ $ pytest tests/unit/
 $ pytest
 ```
 
-## Github Workflow Action
+## Github Workflow Action Pipeline
 
-//screenshot
+<img src="screenshots/github_workflow.png" width="80%">
 
 ## DockerHub Deploy
 
-URL: 
+URL: <a href="https://hub.docker.com/r/lakshya1997/601_module11/tags">https://hub.docker.com/r/lakshya1997/601_module11/tags</a>
 
-//screenshot
+<img src="screenshots/docker_deploy.png" width="80%">
+
+<img src="screenshots/docker_hub.png" width="80%">
 
 ## Challenges
 
@@ -37,7 +39,6 @@ Security action workflow fails when running Tivy vulnerability scanner.
 To fix this, I added .tiryignore files with following Vulnerabilities:
 
 - CVE-2025-43859
-- CVE-2024-33663
 - CVE-2025-62727
 
 #### Docker compose issue
